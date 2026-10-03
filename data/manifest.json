@@ -1,7 +1,720 @@
 {
   "schema_version": 1,
-  "generated_at": null,
+  "generated_at": "2026-10-03T07:21:10Z",
   "source": "openfootball-github",
-  "summary": {"configured": 43, "enabled": 41, "ready": 0, "stale": 0, "missing": 0, "skipped": 2},
-  "leagues": []
+  "source_repo": "openfootball/europe",
+  "history_seasons": 3,
+  "summary": {
+    "configured": 43,
+    "enabled": 41,
+    "ready": 1,
+    "stale": 22,
+    "missing": 18,
+    "skipped": 2
+  },
+  "leagues": [
+    {
+      "code": "OF_ALB1",
+      "country": "Albania",
+      "league": "Kategoria Superiore",
+      "enabled": true,
+      "health": "MISSING",
+      "reason": "No matching OpenFootball JSON dataset found"
+    },
+    {
+      "code": "OF_ARM1",
+      "country": "Armenia",
+      "league": "Premier League",
+      "enabled": true,
+      "health": "STALE",
+      "reason": "Latest completed match is 493 days old and no future fixtures were found",
+      "season_type": "season",
+      "seasons": [
+        "2024-25",
+        "2023-24"
+      ],
+      "matches": 345,
+      "completed": 324,
+      "future_fixtures": 0,
+      "latest_date": "2025-05-28",
+      "latest_completed": "2025-05-28",
+      "source_files": [
+        "work/json/europe/armenia/2023-24_am1.json",
+        "work/json/europe/armenia/2024-25_am1.json"
+      ],
+      "file": "data/leagues/OF_ARM1.json"
+    },
+    {
+      "code": "OF_AZE1",
+      "country": "Azerbaijan",
+      "league": "Premier League",
+      "enabled": true,
+      "health": "STALE",
+      "reason": "Latest completed match is 496 days old and no future fixtures were found",
+      "season_type": "season",
+      "seasons": [
+        "2024-25",
+        "2023-24"
+      ],
+      "matches": 360,
+      "completed": 334,
+      "future_fixtures": 0,
+      "latest_date": "2025-05-25",
+      "latest_completed": "2025-05-25",
+      "source_files": [
+        "work/json/europe/azerbaijan/2023-24_az1.json",
+        "work/json/europe/azerbaijan/2024-25_az1.json"
+      ],
+      "file": "data/leagues/OF_AZE1.json"
+    },
+    {
+      "code": "OF_BLR1",
+      "country": "Belarus",
+      "league": "Premier League",
+      "enabled": true,
+      "health": "STALE",
+      "reason": "Latest completed match is 566 days old and no future fixtures were found",
+      "season_type": "calendar",
+      "seasons": [
+        "2025",
+        "2024",
+        "2023"
+      ],
+      "matches": 690,
+      "completed": 416,
+      "future_fixtures": 0,
+      "latest_date": "2025-11-29",
+      "latest_completed": "2025-03-16",
+      "source_files": [
+        "work/json/europe/belarus/2023_by1.json",
+        "work/json/europe/belarus/2024_by1.json",
+        "work/json/europe/belarus/2025_by1.json"
+      ],
+      "file": "data/leagues/OF_BLR1.json"
+    },
+    {
+      "code": "OF_BLR2",
+      "country": "Belarus",
+      "league": "Pervaya Liga",
+      "enabled": true,
+      "health": "MISSING",
+      "reason": "No matching OpenFootball JSON dataset found"
+    },
+    {
+      "code": "OF_BIH1",
+      "country": "Bosnia & Herzegovina",
+      "league": "Premier Liga",
+      "enabled": true,
+      "health": "STALE",
+      "reason": "Latest completed match is 490 days old and no future fixtures were found",
+      "season_type": "season",
+      "seasons": [
+        "2024-25",
+        "2023-24"
+      ],
+      "matches": 396,
+      "completed": 375,
+      "future_fixtures": 0,
+      "latest_date": "2025-05-31",
+      "latest_completed": "2025-05-31",
+      "source_files": [
+        "work/json/europe/bosnia-herzegovina/2023-24_ba1.json",
+        "work/json/europe/bosnia-herzegovina/2024-25_ba1.json"
+      ],
+      "file": "data/leagues/OF_BIH1.json"
+    },
+    {
+      "code": "OF_BGR1",
+      "country": "Bulgaria",
+      "league": "Parva Liga",
+      "enabled": true,
+      "health": "MISSING",
+      "reason": "No matching OpenFootball JSON dataset found"
+    },
+    {
+      "code": "OF_HRV1",
+      "country": "Croatia",
+      "league": "HNL",
+      "enabled": true,
+      "health": "STALE",
+      "reason": "Latest completed match is 496 days old and no future fixtures were found",
+      "season_type": "season",
+      "seasons": [
+        "2024-25",
+        "2023-24"
+      ],
+      "matches": 360,
+      "completed": 328,
+      "future_fixtures": 0,
+      "latest_date": "2025-05-25",
+      "latest_completed": "2025-05-25",
+      "source_files": [
+        "work/json/europe/croatia/2023-24_hr1.json",
+        "work/json/europe/croatia/2024-25_hr1.json"
+      ],
+      "file": "data/leagues/OF_HRV1.json"
+    },
+    {
+      "code": "OF_HRV2",
+      "country": "Croatia",
+      "league": "Prva NL",
+      "enabled": true,
+      "health": "MISSING",
+      "reason": "No matching OpenFootball JSON dataset found"
+    },
+    {
+      "code": "OF_HRV3",
+      "country": "Croatia",
+      "league": "Druga NL",
+      "enabled": true,
+      "health": "MISSING",
+      "reason": "No matching OpenFootball JSON dataset found"
+    },
+    {
+      "code": "OF_CYP1",
+      "country": "Cyprus",
+      "league": "First Division",
+      "enabled": true,
+      "health": "STALE",
+      "reason": "Latest completed match is 503 days old and no future fixtures were found",
+      "season_type": "season",
+      "seasons": [
+        "2024-25",
+        "2023-24"
+      ],
+      "matches": 508,
+      "completed": 473,
+      "future_fixtures": 0,
+      "latest_date": "2025-05-18",
+      "latest_completed": "2025-05-18",
+      "source_files": [
+        "work/json/europe/cyprus/2023-24_cy1.json",
+        "work/json/europe/cyprus/2024-25_cy1.json"
+      ],
+      "file": "data/leagues/OF_CYP1.json"
+    },
+    {
+      "code": "OF_CZE1",
+      "country": "Czech Republic",
+      "league": "First League",
+      "enabled": true,
+      "health": "READY",
+      "reason": "Current or future match data found",
+      "season_type": "season",
+      "seasons": [
+        "2026-27",
+        "2024-25",
+        "2023-24"
+      ],
+      "matches": 793,
+      "completed": 582,
+      "future_fixtures": 169,
+      "latest_date": "2027-04-24",
+      "latest_completed": "2026-09-20",
+      "source_files": [
+        "work/json/europe/czech-republic/2023-24_cz1.json",
+        "work/json/europe/czech-republic/2024-25_cz1.json",
+        "work/json/europe/czech-republic/2026-27_cz1.json"
+      ],
+      "file": "data/leagues/OF_CZE1.json"
+    },
+    {
+      "code": "OF_CZE2",
+      "country": "Czech Republic",
+      "league": "National Football League / 2. Liga",
+      "enabled": true,
+      "health": "MISSING",
+      "reason": "No matching OpenFootball JSON dataset found"
+    },
+    {
+      "code": "OF_EST1",
+      "country": "Estonia",
+      "league": "Meistriliiga",
+      "enabled": true,
+      "health": "STALE",
+      "reason": "Latest completed match is 566 days old and no future fixtures were found",
+      "season_type": "calendar",
+      "seasons": [
+        "2025",
+        "2024",
+        "2023"
+      ],
+      "matches": 540,
+      "completed": 348,
+      "future_fixtures": 0,
+      "latest_date": "2025-11-08",
+      "latest_completed": "2025-03-16",
+      "source_files": [
+        "work/json/europe/estonia/2023_ee1.json",
+        "work/json/europe/estonia/2024_ee1.json",
+        "work/json/europe/estonia/2025_ee1.json"
+      ],
+      "file": "data/leagues/OF_EST1.json"
+    },
+    {
+      "code": "OF_FRO1",
+      "country": "Faroe Islands",
+      "league": "Premier Division",
+      "enabled": true,
+      "health": "STALE",
+      "reason": "Latest completed match is 517 days old and no future fixtures were found",
+      "season_type": "calendar",
+      "seasons": [
+        "2025",
+        "2024",
+        "2023"
+      ],
+      "matches": 405,
+      "completed": 300,
+      "future_fixtures": 0,
+      "latest_date": "2025-10-25",
+      "latest_completed": "2025-05-04",
+      "source_files": [
+        "work/json/europe/faroe-islands/2023_fo1.json",
+        "work/json/europe/faroe-islands/2024_fo1.json",
+        "work/json/europe/faroe-islands/2025_fo1.json"
+      ],
+      "file": "data/leagues/OF_FRO1.json"
+    },
+    {
+      "code": "OF_GEO1",
+      "country": "Georgia",
+      "league": "Erovnuli Liga",
+      "enabled": true,
+      "health": "MISSING",
+      "reason": "No matching OpenFootball JSON dataset found"
+    },
+    {
+      "code": "OF_HUN1",
+      "country": "Hungary",
+      "league": "NB I",
+      "enabled": true,
+      "health": "STALE",
+      "reason": "Latest completed match is 497 days old and no future fixtures were found",
+      "season_type": "season",
+      "seasons": [
+        "2024-25",
+        "2023-24",
+        "2020-21"
+      ],
+      "matches": 594,
+      "completed": 548,
+      "future_fixtures": 0,
+      "latest_date": "2025-05-25",
+      "latest_completed": "2025-05-24",
+      "source_files": [
+        "work/json/europe/hungary/2020-21_hu1.json",
+        "work/json/europe/hungary/2023-24_hu1.json",
+        "work/json/europe/hungary/2024-25_hu1.json"
+      ],
+      "file": "data/leagues/OF_HUN1.json"
+    },
+    {
+      "code": "OF_HUN2",
+      "country": "Hungary",
+      "league": "NB II",
+      "enabled": true,
+      "health": "MISSING",
+      "reason": "No matching OpenFootball JSON dataset found"
+    },
+    {
+      "code": "OF_ISL1",
+      "country": "Iceland",
+      "league": "Úrvalsdeild",
+      "enabled": true,
+      "health": "STALE",
+      "reason": "Latest completed match is 517 days old and no future fixtures were found",
+      "season_type": "calendar",
+      "seasons": [
+        "2025",
+        "2024",
+        "2023"
+      ],
+      "matches": 456,
+      "completed": 341,
+      "future_fixtures": 0,
+      "latest_date": "2025-09-14",
+      "latest_completed": "2025-05-04",
+      "source_files": [
+        "work/json/europe/iceland/2023_is1.json",
+        "work/json/europe/iceland/2024_is1.json",
+        "work/json/europe/iceland/2025_is1.json"
+      ],
+      "file": "data/leagues/OF_ISL1.json"
+    },
+    {
+      "code": "OF_ISL2",
+      "country": "Iceland",
+      "league": "1. Deild",
+      "enabled": true,
+      "health": "MISSING",
+      "reason": "No matching OpenFootball JSON dataset found"
+    },
+    {
+      "code": "OF_ISL3",
+      "country": "Iceland",
+      "league": "2. Deild",
+      "enabled": true,
+      "health": "MISSING",
+      "reason": "No matching OpenFootball JSON dataset found"
+    },
+    {
+      "code": "OF_KOS1",
+      "country": "Kosovo",
+      "league": "Superliga",
+      "enabled": true,
+      "health": "STALE",
+      "reason": "Latest completed match is 496 days old and no future fixtures were found",
+      "season_type": "season",
+      "seasons": [
+        "2024-25",
+        "2023-24"
+      ],
+      "matches": 360,
+      "completed": 321,
+      "future_fixtures": 0,
+      "latest_date": "2025-05-25",
+      "latest_completed": "2025-05-25",
+      "source_files": [
+        "work/json/europe/kosovo/2023-24_kos1.json",
+        "work/json/europe/kosovo/2024-25_kos1.json"
+      ],
+      "file": "data/leagues/OF_KOS1.json"
+    },
+    {
+      "code": "OF_LVA1",
+      "country": "Latvia",
+      "league": "Virslīga",
+      "enabled": true,
+      "health": "STALE",
+      "reason": "Latest completed match is 517 days old and no future fixtures were found",
+      "season_type": "calendar",
+      "seasons": [
+        "2025",
+        "2024",
+        "2023"
+      ],
+      "matches": 540,
+      "completed": 384,
+      "future_fixtures": 0,
+      "latest_date": "2025-11-09",
+      "latest_completed": "2025-05-04",
+      "source_files": [
+        "work/json/europe/latvia/2023_lv1.json",
+        "work/json/europe/latvia/2024_lv1.json",
+        "work/json/europe/latvia/2025_lv1.json"
+      ],
+      "file": "data/leagues/OF_LVA1.json"
+    },
+    {
+      "code": "OF_LTU1",
+      "country": "Lithuania",
+      "league": "A Lyga",
+      "enabled": true,
+      "health": "MISSING",
+      "reason": "No matching OpenFootball JSON dataset found"
+    },
+    {
+      "code": "OF_LUX1",
+      "country": "Luxembourg",
+      "league": "National Division",
+      "enabled": true,
+      "health": "STALE",
+      "reason": "Latest completed match is 496 days old and no future fixtures were found",
+      "season_type": "season",
+      "seasons": [
+        "2024-25",
+        "2023-24"
+      ],
+      "matches": 480,
+      "completed": 456,
+      "future_fixtures": 0,
+      "latest_date": "2025-05-25",
+      "latest_completed": "2025-05-25",
+      "source_files": [
+        "work/json/europe/luxembourg/2023-24_lu1.json",
+        "work/json/europe/luxembourg/2024-25_lu1.json"
+      ],
+      "file": "data/leagues/OF_LUX1.json"
+    },
+    {
+      "code": "OF_MLT1",
+      "country": "Malta",
+      "league": "Premier League",
+      "enabled": true,
+      "health": "STALE",
+      "reason": "Latest completed match is 511 days old and no future fixtures were found",
+      "season_type": "season",
+      "seasons": [
+        "2024-25",
+        "2023-24"
+      ],
+      "matches": 379,
+      "completed": 347,
+      "future_fixtures": 0,
+      "latest_date": "2025-05-10",
+      "latest_completed": "2025-05-10",
+      "source_files": [
+        "work/json/europe/malta/2023-24_mt1.json",
+        "work/json/europe/malta/2024-25_mt1.json"
+      ],
+      "file": "data/leagues/OF_MLT1.json"
+    },
+    {
+      "code": "OF_MDA1",
+      "country": "Moldova",
+      "league": "First Division",
+      "enabled": true,
+      "health": "STALE",
+      "reason": "Latest completed match is 503 days old and no future fixtures were found",
+      "season_type": "season",
+      "seasons": [
+        "2024-25",
+        "2023-24"
+      ],
+      "matches": 172,
+      "completed": 158,
+      "future_fixtures": 0,
+      "latest_date": "2025-05-18",
+      "latest_completed": "2025-05-18",
+      "source_files": [
+        "work/json/europe/moldova/2023-24_md1.json",
+        "work/json/europe/moldova/2024-25_md1.json"
+      ],
+      "file": "data/leagues/OF_MDA1.json"
+    },
+    {
+      "code": "OF_MNE1",
+      "country": "Montenegro",
+      "league": "First League",
+      "enabled": true,
+      "health": "STALE",
+      "reason": "Latest completed match is 497 days old and no future fixtures were found",
+      "season_type": "season",
+      "seasons": [
+        "2024-25",
+        "2023-24"
+      ],
+      "matches": 360,
+      "completed": 330,
+      "future_fixtures": 0,
+      "latest_date": "2025-05-24",
+      "latest_completed": "2025-05-24",
+      "source_files": [
+        "work/json/europe/montenegro/2023-24_me1.json",
+        "work/json/europe/montenegro/2024-25_me1.json"
+      ],
+      "file": "data/leagues/OF_MNE1.json"
+    },
+    {
+      "code": "OF_MKD1",
+      "country": "North Macedonia",
+      "league": "First League",
+      "enabled": true,
+      "health": "STALE",
+      "reason": "Latest completed match is 504 days old and no future fixtures were found",
+      "season_type": "season",
+      "seasons": [
+        "2024-25",
+        "2023-24"
+      ],
+      "matches": 396,
+      "completed": 336,
+      "future_fixtures": 0,
+      "latest_date": "2025-05-18",
+      "latest_completed": "2025-05-17",
+      "source_files": [
+        "work/json/europe/north-macedonia/2023-24_mk1.json",
+        "work/json/europe/north-macedonia/2024-25_mk1.json"
+      ],
+      "file": "data/leagues/OF_MKD1.json"
+    },
+    {
+      "code": "OF_POL1",
+      "country": "Poland",
+      "league": "Ekstraklasa",
+      "enabled": false,
+      "health": "SKIPPED",
+      "reason": "Already supplied by the existing AccaMatrix updater"
+    },
+    {
+      "code": "OF_POL2",
+      "country": "Poland",
+      "league": "I Liga",
+      "enabled": true,
+      "health": "STALE",
+      "reason": "Latest completed match is 517 days old and no future fixtures were found",
+      "season_type": "season",
+      "seasons": [
+        "2024-25"
+      ],
+      "matches": 306,
+      "completed": 253,
+      "future_fixtures": 0,
+      "latest_date": "2025-05-25",
+      "latest_completed": "2025-05-04",
+      "source_files": [
+        "work/json/europe/poland/2024-25_pl2.json"
+      ],
+      "file": "data/leagues/OF_POL2.json"
+    },
+    {
+      "code": "OF_POL3",
+      "country": "Poland",
+      "league": "II Liga",
+      "enabled": true,
+      "health": "MISSING",
+      "reason": "No matching OpenFootball JSON dataset found"
+    },
+    {
+      "code": "OF_ROU1",
+      "country": "Romania",
+      "league": "Liga 1",
+      "enabled": false,
+      "health": "SKIPPED",
+      "reason": "Already supplied by the existing AccaMatrix updater"
+    },
+    {
+      "code": "OF_ROU2",
+      "country": "Romania",
+      "league": "Liga 2",
+      "enabled": true,
+      "health": "MISSING",
+      "reason": "No matching OpenFootball JSON dataset found"
+    },
+    {
+      "code": "OF_RUS1",
+      "country": "Russia",
+      "league": "Premier League",
+      "enabled": true,
+      "health": "STALE",
+      "reason": "Latest completed match is 497 days old and no future fixtures were found",
+      "season_type": "season",
+      "seasons": [
+        "2024-25",
+        "2023-24",
+        "2020-21"
+      ],
+      "matches": 720,
+      "completed": 661,
+      "future_fixtures": 0,
+      "latest_date": "2025-05-24",
+      "latest_completed": "2025-05-24",
+      "source_files": [
+        "work/json/europe/russia/2020-21_ru1.json",
+        "work/json/europe/russia/2023-24_ru1.json",
+        "work/json/europe/russia/2024-25_ru1.json"
+      ],
+      "file": "data/leagues/OF_RUS1.json"
+    },
+    {
+      "code": "OF_RUS2",
+      "country": "Russia",
+      "league": "First Division",
+      "enabled": true,
+      "health": "MISSING",
+      "reason": "No matching OpenFootball JSON dataset found"
+    },
+    {
+      "code": "OF_SMR1",
+      "country": "San Marino",
+      "league": "Championship",
+      "enabled": true,
+      "health": "STALE",
+      "reason": "Latest completed match is 504 days old and no future fixtures were found",
+      "season_type": "season",
+      "seasons": [
+        "2024-25",
+        "2023-24"
+      ],
+      "matches": 512,
+      "completed": 484,
+      "future_fixtures": 0,
+      "latest_date": "2025-05-17",
+      "latest_completed": "2025-05-17",
+      "source_files": [
+        "work/json/europe/san-marino/2023-24_sm1.json",
+        "work/json/europe/san-marino/2024-25_sm1.json"
+      ],
+      "file": "data/leagues/OF_SMR1.json"
+    },
+    {
+      "code": "OF_SRB1",
+      "country": "Serbia",
+      "league": "Super League",
+      "enabled": true,
+      "health": "STALE",
+      "reason": "Latest completed match is 496 days old and no future fixtures were found",
+      "season_type": "season",
+      "seasons": [
+        "2024-25",
+        "2023-24"
+      ],
+      "matches": 592,
+      "completed": 552,
+      "future_fixtures": 0,
+      "latest_date": "2025-05-25",
+      "latest_completed": "2025-05-25",
+      "source_files": [
+        "work/json/europe/serbia/2023-24_rs1.json",
+        "work/json/europe/serbia/2024-25_rs1.json"
+      ],
+      "file": "data/leagues/OF_SRB1.json"
+    },
+    {
+      "code": "OF_SRB2",
+      "country": "Serbia",
+      "league": "Prva Liga",
+      "enabled": true,
+      "health": "MISSING",
+      "reason": "No matching OpenFootball JSON dataset found"
+    },
+    {
+      "code": "OF_SVK1",
+      "country": "Slovakia",
+      "league": "Niké Liga",
+      "enabled": true,
+      "health": "STALE",
+      "reason": "Latest completed match is 498 days old and no future fixtures were found",
+      "season_type": "season",
+      "seasons": [
+        "2024-25",
+        "2023-24"
+      ],
+      "matches": 387,
+      "completed": 348,
+      "future_fixtures": 0,
+      "latest_date": "2025-05-23",
+      "latest_completed": "2025-05-23",
+      "source_files": [
+        "work/json/europe/slovakia/2023-24_sk1.json",
+        "work/json/europe/slovakia/2024-25_sk1.json"
+      ],
+      "file": "data/leagues/OF_SVK1.json"
+    },
+    {
+      "code": "OF_SVK2",
+      "country": "Slovakia",
+      "league": "Second League",
+      "enabled": true,
+      "health": "MISSING",
+      "reason": "No matching OpenFootball JSON dataset found"
+    },
+    {
+      "code": "OF_SVN1",
+      "country": "Slovenia",
+      "league": "PrvaLiga",
+      "enabled": true,
+      "health": "MISSING",
+      "reason": "No matching OpenFootball JSON dataset found"
+    },
+    {
+      "code": "OF_SVN2",
+      "country": "Slovenia",
+      "league": "Second League",
+      "enabled": true,
+      "health": "MISSING",
+      "reason": "No matching OpenFootball JSON dataset found"
+    }
+  ]
 }
