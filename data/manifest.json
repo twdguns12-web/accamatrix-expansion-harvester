@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "generated_at": null,
+  "source": "openfootball-github",
+  "summary": {"configured": 43, "enabled": 41, "ready": 0, "stale": 0, "missing": 0, "skipped": 2},
+  "leagues": []
+}
