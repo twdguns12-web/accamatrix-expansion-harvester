@@ -1,0 +1,58 @@
+name: Update AccaMatrix expansion feed
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 4 * * 1'
+
+permissions:
+  contents: write
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout AccaMatrix feed repository
+        uses: actions/checkout@v4
+
+      - name: Checkout OpenFootball Europe source
+        uses: actions/checkout@v4
+        with:
+          repository: openfootball/europe
+          path: upstream/europe
+          fetch-depth: 1
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+
+      - name: Install Football.TXT converter
+        run: gem install fbtxt2json -v 0.9.0 --no-document
+
+      - name: Convert OpenFootball source to JSON
+        run: |
+          rm -rf work/json
+          mkdir -p work/json
+          fbtxt2json upstream/europe -o work/json
+
+      - name: Build AccaMatrix expansion feed
+        run: |
+          python3 scripts/harvest.py \
+            --config config/leagues.json \
+            --input work/json \
+            --output data
+
+      - name: Commit changed feed files
+        run: |
+          git config user.name "accamatrix-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No data changes"
+            exit 0
+          fi
+          git commit -m "data: weekly OpenFootball expansion update"
+          git push
