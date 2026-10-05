@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T07:21:10Z",
+  "generated_at": "2026-10-05T11:27:09Z",
   "source": "openfootball-github",
   "source_repo": "openfootball/europe",
   "history_seasons": 3,
@@ -27,7 +27,7 @@
       "league": "Premier League",
       "enabled": true,
       "health": "STALE",
-      "reason": "Latest completed match is 493 days old and no future fixtures were found",
+      "reason": "Latest completed match is 495 days old and no future fixtures were found",
       "season_type": "season",
       "seasons": [
         "2024-25",
@@ -50,7 +50,7 @@
       "league": "Premier League",
       "enabled": true,
       "health": "STALE",
-      "reason": "Latest completed match is 496 days old and no future fixtures were found",
+      "reason": "Latest completed match is 498 days old and no future fixtures were found",
       "season_type": "season",
       "seasons": [
         "2024-25",
@@ -73,7 +73,7 @@
       "league": "Premier League",
       "enabled": true,
       "health": "STALE",
-      "reason": "Latest completed match is 566 days old and no future fixtures were found",
+      "reason": "Latest completed match is 568 days old and no future fixtures were found",
       "season_type": "calendar",
       "seasons": [
         "2025",
@@ -106,7 +106,7 @@
       "league": "Premier Liga",
       "enabled": true,
       "health": "STALE",
-      "reason": "Latest completed match is 490 days old and no future fixtures were found",
+      "reason": "Latest completed match is 492 days old and no future fixtures were found",
       "season_type": "season",
       "seasons": [
         "2024-25",
@@ -137,7 +137,7 @@
       "league": "HNL",
       "enabled": true,
       "health": "STALE",
-      "reason": "Latest completed match is 496 days old and no future fixtures were found",
+      "reason": "Latest completed match is 498 days old and no future fixtures were found",
       "season_type": "season",
       "seasons": [
         "2024-25",
@@ -176,7 +176,7 @@
       "league": "First Division",
       "enabled": true,
       "health": "STALE",
-      "reason": "Latest completed match is 503 days old and no future fixtures were found",
+      "reason": "Latest completed match is 505 days old and no future fixtures were found",
       "season_type": "season",
       "seasons": [
         "2024-25",
@@ -232,7 +232,7 @@
       "league": "Meistriliiga",
       "enabled": true,
       "health": "STALE",
-      "reason": "Latest completed match is 566 days old and no future fixtures were found",
+      "reason": "Latest completed match is 568 days old and no future fixtures were found",
       "season_type": "calendar",
       "seasons": [
         "2025",
@@ -257,7 +257,7 @@
       "league": "Premier Division",
       "enabled": true,
       "health": "STALE",
-      "reason": "Latest completed match is 517 days old and no future fixtures were found",
+      "reason": "Latest completed match is 519 days old and no future fixtures were found",
       "season_type": "calendar",
       "seasons": [
         "2025",
@@ -290,7 +290,7 @@
       "league": "NB I",
       "enabled": true,
       "health": "STALE",
-      "reason": "Latest completed match is 497 days old and no future fixtures were found",
+      "reason": "Latest completed match is 499 days old and no future fixtures were found",
       "season_type": "season",
       "seasons": [
         "2024-25",
@@ -323,7 +323,7 @@
       "league": "Úrvalsdeild",
       "enabled": true,
       "health": "STALE",
-      "reason": "Latest completed match is 517 days old and no future fixtures were found",
+      "reason": "Latest completed match is 519 days old and no future fixtures were found",
       "season_type": "calendar",
       "seasons": [
         "2025",
@@ -364,7 +364,7 @@
       "league": "Superliga",
       "enabled": true,
       "health": "STALE",
-      "reason": "Latest completed match is 496 days old and no future fixtures were found",
+      "reason": "Latest completed match is 498 days old and no future fixtures were found",
       "season_type": "season",
       "seasons": [
         "2024-25",
@@ -387,7 +387,7 @@
       "league": "Virslīga",
       "enabled": true,
       "health": "STALE",
-      "reason": "Latest completed match is 517 days old and no future fixtures were found",
+      "reason": "Latest completed match is 519 days old and no future fixtures were found",
       "season_type": "calendar",
       "seasons": [
         "2025",
@@ -420,7 +420,7 @@
       "league": "National Division",
       "enabled": true,
       "health": "STALE",
-      "reason": "Latest completed match is 496 days old and no future fixtures were found",
+      "reason": "Latest completed match is 498 days old and no future fixtures were found",
       "season_type": "season",
       "seasons": [
         "2024-25",
@@ -443,7 +443,7 @@
       "league": "Premier League",
       "enabled": true,
       "health": "STALE",
-      "reason": "Latest completed match is 511 days old and no future fixtures were found",
+      "reason": "Latest completed match is 513 days old and no future fixtures were found",
       "season_type": "season",
       "seasons": [
         "2024-25",
@@ -466,7 +466,7 @@
       "league": "First Division",
       "enabled": true,
       "health": "STALE",
-      "reason": "Latest completed match is 503 days old and no future fixtures were found",
+      "reason": "Latest completed match is 505 days old and no future fixtures were found",
       "season_type": "season",
       "seasons": [
         "2024-25",
@@ -489,7 +489,7 @@
       "league": "First League",
       "enabled": true,
       "health": "STALE",
-      "reason": "Latest completed match is 497 days old and no future fixtures were found",
+      "reason": "Latest completed match is 499 days old and no future fixtures were found",
       "season_type": "season",
       "seasons": [
         "2024-25",
@@ -512,7 +512,7 @@
       "league": "First League",
       "enabled": true,
       "health": "STALE",
-      "reason": "Latest completed match is 504 days old and no future fixtures were found",
+      "reason": "Latest completed match is 506 days old and no future fixtures were found",
       "season_type": "season",
       "seasons": [
         "2024-25",
@@ -543,7 +543,7 @@
       "league": "I Liga",
       "enabled": true,
       "health": "STALE",
-      "reason": "Latest completed match is 517 days old and no future fixtures were found",
+      "reason": "Latest completed match is 519 days old and no future fixtures were found",
       "season_type": "season",
       "seasons": [
         "2024-25"
@@ -588,7 +588,7 @@
       "league": "Premier League",
       "enabled": true,
       "health": "STALE",
-      "reason": "Latest completed match is 497 days old and no future fixtures were found",
+      "reason": "Latest completed match is 499 days old and no future fixtures were found",
       "season_type": "season",
       "seasons": [
         "2024-25",
@@ -621,7 +621,7 @@
       "league": "Championship",
       "enabled": true,
       "health": "STALE",
-      "reason": "Latest completed match is 504 days old and no future fixtures were found",
+      "reason": "Latest completed match is 506 days old and no future fixtures were found",
       "season_type": "season",
       "seasons": [
         "2024-25",
@@ -644,7 +644,7 @@
       "league": "Super League",
       "enabled": true,
       "health": "STALE",
-      "reason": "Latest completed match is 496 days old and no future fixtures were found",
+      "reason": "Latest completed match is 498 days old and no future fixtures were found",
       "season_type": "season",
       "seasons": [
         "2024-25",
@@ -675,7 +675,7 @@
       "league": "Niké Liga",
       "enabled": true,
       "health": "STALE",
-      "reason": "Latest completed match is 498 days old and no future fixtures were found",
+      "reason": "Latest completed match is 500 days old and no future fixtures were found",
       "season_type": "season",
       "seasons": [
         "2024-25",
