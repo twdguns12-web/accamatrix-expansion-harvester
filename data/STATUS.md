@@ -1,6 +1,6 @@
 # AccaMatrix Expansion Feed Status
 
-Generated: **2026-10-19T09:52:55Z**
+Generated: **2026-10-26T10:05:59Z**
 
 | Country | League | Code | Health | Matches | Future | Latest result |
 |---|---|---:|---|---:|---:|---|
@@ -15,7 +15,7 @@ Generated: **2026-10-19T09:52:55Z**
 | Croatia | Prva NL | `OF_HRV2` | **MISSING** | 0 | 0 | — |
 | Croatia | Druga NL | `OF_HRV3` | **MISSING** | 0 | 0 | — |
 | Cyprus | First Division | `OF_CYP1` | **STALE** | 508 | 0 | 2025-05-18 |
-| Czech Republic | First League | `OF_CZE1` | **READY** | 793 | 152 | 2026-09-20 |
+| Czech Republic | First League | `OF_CZE1` | **READY** | 793 | 144 | 2026-09-20 |
 | Czech Republic | National Football League / 2. Liga | `OF_CZE2` | **MISSING** | 0 | 0 | — |
 | Estonia | Meistriliiga | `OF_EST1` | **STALE** | 540 | 0 | 2025-03-16 |
 | Faroe Islands | Premier Division | `OF_FRO1` | **STALE** | 405 | 0 | 2025-05-04 |
