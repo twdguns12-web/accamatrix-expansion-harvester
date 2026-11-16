@@ -1,6 +1,6 @@
 # AccaMatrix Expansion Feed Status
 
-Generated: **2026-11-09T12:50:39Z**
+Generated: **2026-11-16T12:42:57Z**
 
 | Country | League | Code | Health | Matches | Future | Latest result |
 |---|---|---:|---|---:|---:|---|
